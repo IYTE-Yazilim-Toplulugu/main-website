@@ -20,11 +20,9 @@ const Stakeholders = () => {
           <h1 className='title text-center text-4xl text-white font-bold cursor-pointer'>Paydaşlarımız</h1>
           <div className='line'></div>
         </div>
-        <div className='grid grid-cols-2 px-3 lg:px-0 lg:py-0 lg:grid-cols-4 gap-4 w-full'>
+        <div className='grid grid-cols-2 px-3 lg:px-0 lg:py-0 lg:grid-cols-2 gap-4 w-1/2'>
           <StakeHolder image={Iyte} />
           <StakeHolder image={Teknopark} />
-          <StakeHolder image={Cengo} />
-          <StakeHolder image={Pyro} />
           {/* <StakeHolder image={} /> */}
         </div>
       </div>

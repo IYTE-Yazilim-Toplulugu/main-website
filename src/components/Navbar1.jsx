@@ -110,7 +110,7 @@ const Navbar1 = () => {
                             <h3 onClick={() => navigation("/about")} className='text-center cursor-pointer text-white py-2 px-4 hover:shadow-xl hover:bg-white/10 rounded-xl transition duration-300'>Biz Kimiz?</h3>
                             <h3 onClick={() => navigation("/events")} className='cursor-pointer text-white py-2 px-4 hover:shadow-xl hover:bg-white/10 rounded-xl transition duration-300'>Etkinlikler</h3>
                             <h3 onClick={() => navigation("/sss")} className='cursor-pointer text-white py-2 px-4 hover:shadow-xl hover:bg-white/10 rounded-xl transition duration-300'>S.S.S.</h3>
-                            <h3 className='cursor-pointer text-white py-2 px-4 hover:shadow-xl hover:bg-white/10 rounded-xl transition duration-300'>İletişim</h3>
+                            <a target="_blank" href="https://card.iyteyazilim.com/" className='cursor-pointer text-white py-2 px-4 hover:shadow-xl hover:bg-white/10 rounded-xl transition duration-300'>İletişim</a>
                         </div>
 
                         <div className='flex basis-1/4 justify-end'>

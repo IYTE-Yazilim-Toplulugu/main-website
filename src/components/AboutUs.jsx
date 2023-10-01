@@ -22,7 +22,11 @@ const AboutUs = () => {
 
         {/* Content */}
         <div className='text-center lg:text-lg text-xs'>
-          <p className='mt-8 text-white'>IYTE Yazılım Topluluğu 2011'de kurulmuş Bilgisayar Mühendisliği topluluğudur. Incididunt deserunt mollit ut eu eiusmod aliqua qui est est. Minim incididunt in exercitation eu. Adipisicing dolore quis ipsum anim tempor culpa mollit mollit magna. Laborum officia reprehenderit sunt duis non in incididunt occaecat sint sunt non veniam Lorem. In pariatur minim cupidatat reprehenderit aute amet aute do. Nisi magna consequat ut mollit elit id cupidatat veniam proident nulla et sint adipisicing. Duis magna incididunt in sint non Lorem enim minim dolor commodo labore.</p>
+          <p className='mt-8 text-white'>İYTE Yazılım Topluluğu 2011'de kurulmuş İzmir Yüksek Teknoloji Enstitüsü'nde Bilgisayar Mühendisliği bölümü öğrencileri
+          tarafından kurulan ve kar amacı gütmeyen bir öğrenci topluluğudur. İYTE Yazılım Topluluğu, bağlı olduğu Bilgisayar Mühendisliği bölümüne, İzmir Yüksek 
+          Teknoloji Enstitüsü’ne ve ülkesinin kalkınmasına yönelik büyük hedefleri olan büyük bir öğrenci topluluğudur. Bulunduğu her alanda en iyisini hedefler.
+          İYTE Yazılım Topluluğu, bağlı olduğu İzmir Yüksek Teknıloji Enstitüsü’nün belirlediği ideallere, vizyona, misyona ve hedeflere uygun olarak kendisine 
+          <a href="/about"><b> Biz Kimiz?</b></a> maddesinde belirtilen maddeleri amaç edinmiştir.</p>
         </div>
       </div>
     </div>

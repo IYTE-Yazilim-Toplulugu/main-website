@@ -18,7 +18,8 @@ const Footer = () => {
                         <LogoCanvas />
                     </div>
                     <h2 className='my-4 text-md'>İYTE Yazılım Topluluğu</h2>
-                    <p className='text-sm text-center'>Incididunt esse excepteur cupidatat nulla cupidatat non nulla labore deserunt eiusmod ipsum ad sunt anim. Laboris anim amet nisi sint proident amet do in eu id aute. Id fugiat laborum velit elit nisi ullamco ut aliquip voluptate in exercitation.</p>
+                    <p className='text-sm text-center'>İYTE Yazılım Topluluğu 2011'de kurulmuş İzmir Yüksek Teknoloji Enstitüsü'nde Bilgisayar Mühendisliği bölümü öğrencileri
+          tarafından kurulan ve kar amacı gütmeyen bir öğrenci topluluğudur.</p>
                 </div>
 
                 {/* Top Col 2 */}
