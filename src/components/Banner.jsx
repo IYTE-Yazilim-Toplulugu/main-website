@@ -4,7 +4,9 @@ import bannerData from './BannerData';
 import KeyboardArrowLeftIcon from '@mui/icons-material/KeyboardArrowLeft';
 import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 import PeopleIcon from '@mui/icons-material/People';
-
+import LocationOnIcon from '@mui/icons-material/LocationOn';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import RocketIcon from '@mui/icons-material/Rocket';
 import DiscordLogo from "../assets/images/discord-logo-white.png";
 
 
@@ -33,16 +35,16 @@ const Numbers = () => {
     <div className='bg-gray-700 h-20 lg:h-36 max-w-screen'>
       <div className='flex container max-w-5xl justify-between mx-auto items-center px-5 h-full'>
         <div className='flex flex-col items-center hover:bg-gray-800 w-full h-full justify-center text-white'>
-          <PeopleIcon sx={{ fontSize: size }} />
-          <p className='font-bold cursor-default'>956</p>
+          <LocationOnIcon sx={{ fontSize: size }} />
+          <p className='font-bold cursor-default'>Urla/İzmir</p>
         </div>
         <div className='flex flex-col items-center hover:bg-gray-800 w-full h-full justify-center text-white'>
-          <PeopleIcon sx={{ fontSize: size }} />
-          <p className='font-bold cursor-default'>956</p>
+          <RocketIcon sx={{ fontSize: size }} />
+          <p className='font-bold cursor-default'></p>
         </div>
         <div className='flex flex-col items-center hover:bg-gray-800 w-full h-full justify-center text-white'>
-          <PeopleIcon sx={{ fontSize: size }} />
-          <p className='font-bold cursor-default'>956</p>
+          <InstagramIcon sx={{ fontSize: size }} />
+          <p className='font-bold cursor-default'>1188</p>
         </div>
       </div>
     </div>

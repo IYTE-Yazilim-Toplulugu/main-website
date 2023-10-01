@@ -25,19 +25,16 @@ const SubNav = ({ isOpen }) => {
             <h3 onClick={() => navigation("/events")} className='mb-2 cursor-pointer text-black py-2 px-4 border-2 active:shadow-xl hover:bg-white/10 rounded-xl transition duration-300'>Etkinlikler</h3>
             <h3 onClick={() => navigation("/sss")} className='mb-2 cursor-pointer text-black py-2 px-4 border-2 active:shadow-xl hover:bg-white/10 rounded-xl transition duration-300'>S.S.S.</h3>
             <h3 className='mb-2 cursor-pointer text-black py-2 px-4 border-2 hover:shadow-xl active:bg-white/10 rounded-xl transition duration-300'>İletişim</h3>
-            <h3 className='cursor-pointer text-black py-2 px-4 border-2 hover:shadow-xl active:bg-white/10 rounded-xl transition duration-300 mb-2'>Forum</h3>
+            
 
             <hr />
 
             <div className='flex justify-center mt-2'>
                 <button className='py-2 px-4 rounded-lg bg-purple-400 transition-all duration-300 shadow-xl'>Üye Ol</button>
-                <button className='ml-2 py-2 px-4 rounded-lg bg-green-400 transition-all duration-300 shadow-xl'>
-                    <div className='absolute ml-16 -mt-3 w-5 h-5 rounded-md bg-red-700 text-red-400 flex justify-center items-center text-sm'>0</div>
-                    <div>Yarışmalar</div>
-                </button>
-                <button className='ml-2 py-2 px-4 rounded-lg active:bg-[#FFDF00] bg-[#FFDF00] transition-all duration-300 shadow-xl'>
+                
+                {/* <button className='ml-2 py-2 px-4 rounded-lg active:bg-[#FFDF00] bg-[#FFDF00] transition-all duration-300 shadow-xl'>
                     <p className='relative z-10'>Destekle</p>
-                </button>
+                </button> */}
             </div>
         </div>
     )
@@ -114,18 +111,14 @@ const Navbar1 = () => {
                             <h3 onClick={() => navigation("/events")} className='cursor-pointer text-white py-2 px-4 hover:shadow-xl hover:bg-white/10 rounded-xl transition duration-300'>Etkinlikler</h3>
                             <h3 onClick={() => navigation("/sss")} className='cursor-pointer text-white py-2 px-4 hover:shadow-xl hover:bg-white/10 rounded-xl transition duration-300'>S.S.S.</h3>
                             <h3 className='cursor-pointer text-white py-2 px-4 hover:shadow-xl hover:bg-white/10 rounded-xl transition duration-300'>İletişim</h3>
-                            <h3 className='cursor-pointer text-white py-2 px-4 hover:shadow-xl hover:bg-white/10 rounded-xl transition duration-300'>Forum</h3>
                         </div>
 
                         <div className='flex basis-1/4 justify-end'>
-                            <button className='py-1 px-3 rounded-lg hover:bg-white/30 transition-all duration-300 shadow-xl'>
-                                <div className='absolute ml-16 -mt-3 w-5 h-5 rounded-md bg-red-700 text-red-400 flex justify-center items-center text-sm'>0</div>
-                                <div>Yarışmalar</div>
-                            </button>
-                            <button className='ml-2 py-1 px-2 rounded-lg hover:bg-white/30 transition-all duration-300 shadow-xl'>Üye Ol</button>
-                            <button className='ml-2 py-1 px-2 rounded-lg hover:bg-[#FFDF00] bg-[#FFDF00]/30 transition-all duration-300 shadow-xl'>
+                            
+                            <button className='ml-2 py-3 px-10 bg-white rounded-lg hover:bg-white/30 transition-all duration-300 shadow-xl'>Üye Ol</button>
+                            {/* <button className='ml-2 py-1 px-2 rounded-lg hover:bg-[#FFDF00] bg-[#FFDF00]/30 transition-all duration-300 shadow-xl'>
                                 <p className='relative z-10'>Destekle</p>
-                            </button>
+                            </button> */}
                         </div>
                     </>
                 )
