@@ -19,19 +19,27 @@ const Footer = () => {
                     </div>
                     <h2 className='my-4 text-md'>İYTE Yazılım Topluluğu</h2>
                     <p className='text-sm text-center'>İYTE Yazılım Topluluğu 2011'de kurulmuş İzmir Yüksek Teknoloji Enstitüsü'nde Bilgisayar Mühendisliği bölümü öğrencileri
-          tarafından kurulan ve kar amacı gütmeyen bir öğrenci topluluğudur.</p>
+                    tarafından kurulan ve kar amacı gütmeyen bir öğrenci topluluğudur.</p>
                 </div>
 
                 {/* Top Col 2 */}
                 <div className='md:border-r-2 md:border-b-0 border-b-2 border-white/20 px-2 pt-2 md:pt-0'>
                     <h2 className='font-bold underline text-xl mt-2'>Linkler:</h2>
                     <ul>
-                        <li className='my-5 ml-3 underline md:no-underline'><a href='/'>Ana Sayfa</a></li>
-                        <li className='my-5 ml-3 underline md:no-underline'><a href='/about'>Biz Kimiz?</a></li>
-                        <li className='my-5 ml-3 underline md:no-underline'><a href='/events'>Etkinlikler</a></li>
+                        <li className='my-5 ml-3 underline md:no-underline'><a onClick={() => {
+                                window.scrollTo(0,0); 
+                            }}>Ana Sayfa</a></li>
+                        <li className='my-5 ml-3 underline md:no-underline'><a onClick={() => {
+                                const y = document.getElementById("aboutUs").offsetTop - 40;
+                                window.scrollTo(0,y); 
+                            }}>Biz Kimiz?</a></li>
+                        <li className='my-5 ml-3 underline md:no-underline'><a onClick={() => {
+                                const y = document.getElementById("events").offsetTop - 40;
+                                window.scrollTo(0,y); 
+                            }}>Etkinlikler</a></li>
                         <li className='my-5 ml-3 underline md:no-underline'><a href='/sss'>Sıkça Sorulan Sorular</a></li>
-                        <li className='my-5 ml-3 underline md:no-underline'><a href='/contacts'>İletişim</a></li>
-                        <li className='my-5 ml-3 underline md:no-underline'><a href='/'>Forum</a></li>
+                        <li className='my-5 ml-3 underline md:no-underline'><a href='https://card.iyteyazilim.com/'>İletişim</a></li>
+                        {/* <li className='my-5 ml-3 underline md:no-underline'><a href='/'>Forum</a></li> */}
                     </ul>
                 </div>
 

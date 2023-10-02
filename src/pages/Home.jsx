@@ -14,10 +14,10 @@ const Home = () => {
       <Navbar1 />
       <div className='mt-16'>
         <Banner />
-        <AboutUs />
-        <Events />
+        <div id='aboutUs'><AboutUs /></div>
+        <div id='events'><Events /></div>
         <Stakeholders />
-        <SocialLinks />
+        <div id='socialLinks'><SocialLinks /></div>
         <Footer />
         <CopyRight />
       </div>

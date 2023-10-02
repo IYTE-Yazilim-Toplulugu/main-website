@@ -7,7 +7,9 @@ const Events = () => {
   return (
     <div>
       <Navbar1 />
-      <div className='h-screen'></div>
+      <div className='h-screen'>
+        
+      </div>
       <Footer />
       <CopyRight />
     </div>

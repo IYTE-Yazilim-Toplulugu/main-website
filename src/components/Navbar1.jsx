@@ -21,8 +21,14 @@ const SubNav = ({ isOpen }) => {
     return (
         <div className={`sm:px-8 px-2 bg-white py-2 ${translate} relative z-0 transition-all duration-300 ease-linear`}>
             <h3 onClick={() => navigation("/")} className='mb-2 cursor-pointer text-black py-2 px-4 border-2 hover:bg-white/10 rounded-xl transition duration-300'>Ana Sayfa</h3>
-            <h3 onClick={() => navigation("/about")} className='mb-2 cursor-pointer text-black py-2 px-4 border-2 hover:bg-white/10 rounded-xl transition duration-300'>Biz Kimiz?</h3>
-            <h3 onClick={() => navigation("/events")} className='mb-2 cursor-pointer text-black py-2 px-4 border-2 active:shadow-xl hover:bg-white/10 rounded-xl transition duration-300'>Etkinlikler</h3>
+            <h3 onClick={() => {
+                const y = document.getElementById("aboutUs").offsetTop - 40;
+                window.scrollTo(0,y); 
+            }} className='mb-2 cursor-pointer text-black py-2 px-4 border-2 hover:bg-white/10 rounded-xl transition duration-300'>Biz Kimiz?</h3>
+            <h3 onClick={() => {
+                const y = document.getElementById("events").offsetTop - 40;
+                window.scrollTo(0,y); 
+            }} className='mb-2 cursor-pointer text-black py-2 px-4 border-2 active:shadow-xl hover:bg-white/10 rounded-xl transition duration-300'>Etkinlikler</h3>
             <h3 onClick={() => navigation("/sss")} className='mb-2 cursor-pointer text-black py-2 px-4 border-2 active:shadow-xl hover:bg-white/10 rounded-xl transition duration-300'>S.S.S.</h3>
             <h3 className='mb-2 cursor-pointer text-black py-2 px-4 border-2 hover:shadow-xl active:bg-white/10 rounded-xl transition duration-300'>İletişim</h3>
             
@@ -106,9 +112,17 @@ const Navbar1 = () => {
                 ) : (
                     <>
                         <div className='flex basis-2/4 justify-between items-center text-sm px-0 2xl:px-16 xl:px-12'>
-                            <h3 onClick={() => navigation("/")} className='text-center cursor-pointer text-white py-2 px-4 hover:shadow-xl hover:bg-white/10 rounded-xl transition duration-300'>Ana Sayfa</h3>
-                            <h3 onClick={() => navigation("/about")} className='text-center cursor-pointer text-white py-2 px-4 hover:shadow-xl hover:bg-white/10 rounded-xl transition duration-300'>Biz Kimiz?</h3>
-                            <h3 onClick={() => navigation("/events")} className='cursor-pointer text-white py-2 px-4 hover:shadow-xl hover:bg-white/10 rounded-xl transition duration-300'>Etkinlikler</h3>
+                            <h3 onClick={() => {
+                                window.scrollTo(0,0); 
+                            }} className='text-center cursor-pointer text-white py-2 px-4 hover:shadow-xl hover:bg-white/10 rounded-xl transition duration-300'>Ana Sayfa</h3>
+                            <h3 onClick={() => {
+                                const y = document.getElementById("aboutUs").offsetTop - 40;
+                                window.scrollTo(0,y); 
+                            }} className='text-center cursor-pointer text-white py-2 px-4 hover:shadow-xl hover:bg-white/10 rounded-xl transition duration-300'>Biz Kimiz?</h3>
+                            <h3 onClick={() => {
+                                const y = document.getElementById("events").offsetTop - 40;
+                                window.scrollTo(0,y); 
+                            }} className='cursor-pointer text-white py-2 px-4 hover:shadow-xl hover:bg-white/10 rounded-xl transition duration-300'>Etkinlikler</h3>
                             <h3 onClick={() => navigation("/sss")} className='cursor-pointer text-white py-2 px-4 hover:shadow-xl hover:bg-white/10 rounded-xl transition duration-300'>S.S.S.</h3>
                             <a target="_blank" href="https://card.iyteyazilim.com/" className='cursor-pointer text-white py-2 px-4 hover:shadow-xl hover:bg-white/10 rounded-xl transition duration-300'>İletişim</a>
                         </div>
