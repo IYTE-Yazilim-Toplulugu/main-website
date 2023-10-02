@@ -9,10 +9,17 @@ import Path4GameBackground from "../assets/images/path4game.JPG"
 
 const Event = ({ title, image, miniDesc, url, eventStyle}) => {
   return (
-    <div className={`${eventStyle} bg-yellow-500 max-h-96 lg:h-96 h-80 rounded-md p-2 my-2 lg:my-0`}>
-      {title}
-      <img src= {image} className='w-full h-full cover' alt="" />
+<div className={`${eventStyle} bg-orange-400 text-center font-bold max-h-96 lg:h-96 h-80 rounded-xl p-2 my-2 lg:my-0`}>
+  {title}
+  <div className="flex flex-col justify-center items-center -mt-3 h-full">
+    <div className="w-full h-5/6 flex items-center justify-center overflow-hidden">
+      <img src={image} className='w-auto h-auto max-h-full max-w-full rounded-3xl' alt="" />
     </div>
+  </div>
+</div>
+
+
+  
   )
 }
 
@@ -21,10 +28,11 @@ const Events = () => {
   return (
     <div className='bg-white py-4'>
       <div className='container max-w-4xl mx-auto flex justify-center flex-col items-center'>
-        <div onClick={() => navigation("/events")} className='my-12'>
+        <div className='my-12'>
           <h1 className='title text-center text-4xl font-bold cursor-pointer'>Etkinlikler</h1>
           <div className='line'></div>
         </div>
+        
         <div className='px-3 lg:px-0 lg:grid lg:grid-cols-3 gap-4 w-full'>
           <Event title={"Python Eğitimi"} image={PythonBackground}/>
           <Event title={"GitHub Eğitimi"} image={GithubBackground}/>

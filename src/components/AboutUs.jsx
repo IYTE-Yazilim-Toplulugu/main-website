@@ -15,7 +15,7 @@ const AboutUs = () => {
         </div>
 
         {/* Title */}
-        <div onClick={() => navigation("/about")} className=''>
+        <div className=''>
           <h1 className='title relative z-10 text-4xl -mt-2 text-white font-bold cursor-pointer'>Biz Kimiz?</h1>
           <div className='line'></div>
         </div>

@@ -7,7 +7,8 @@ import Footer from '../components/Footer3';
 import Navbar1 from '../components/Navbar1';
 import SocialLinks from '../components/SocialLinks';
 import Stakeholders from '../components/Stakeholders';
-
+import Donators from "../components/Donators";
+import Faq from "../components/Faq";
 const Home = () => {
   return (
     <div className='w-screen'>
@@ -18,6 +19,7 @@ const Home = () => {
         <div id='events'><Events /></div>
         <Stakeholders />
         <div id='socialLinks'><SocialLinks /></div>
+        <div id='faq'><Faq/></div>
         <Footer />
         <CopyRight />
       </div>

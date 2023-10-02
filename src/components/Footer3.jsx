@@ -37,7 +37,9 @@ const Footer = () => {
                                 const y = document.getElementById("events").offsetTop - 40;
                                 window.scrollTo(0,y); 
                             }}>Etkinlikler</a></li>
-                        <li className='my-5 ml-3 underline md:no-underline'><a href='/sss'>Sıkça Sorulan Sorular</a></li>
+                        <li className='my-5 ml-3 underline md:no-underline'><a onClick={() => {
+                                const y = document.getElementById("faq").offsetTop - 80;
+                                window.scrollTo(0,y); }}>Sıkça Sorulan Sorular</a></li>
                         <li className='my-5 ml-3 underline md:no-underline'><a href='https://card.iyteyazilim.com/'>İletişim</a></li>
                         {/* <li className='my-5 ml-3 underline md:no-underline'><a href='/'>Forum</a></li> */}
                     </ul>
