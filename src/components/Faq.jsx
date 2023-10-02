@@ -1,7 +1,4 @@
 import React from 'react';
-import Navbar1 from '../components/Navbar1';
-import Footer from '../components/Footer3';
-import CopyRight from '../components/CopyRight';
 
 import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
@@ -62,7 +59,9 @@ const Events = () => {
             </AccordionSummary>
             <AccordionDetails>
               <Typography>
-                Lütfen yöneticilerimizle aşağıdaki linkten iletişime geçiniz.
+                Bilgilerinizle tekrar üye olmayı deneyiniz. Karşınıza sertifika alma ekranı gelecektir.
+                Girdiğiniz zaman sertifikanız otomatik olarak indirilecektir.
+                Sorunun devamı halinde yöneticilerimizle aşağıdaki linkten iletişime geçiniz.
                 <br />
                 <a href="https://card.iyteyazilim.com/">card.iyteyazilim.com</a>
               </Typography>

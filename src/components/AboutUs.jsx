@@ -1,10 +1,8 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
 import LogoCanvas from './canvases/Logo';
 
 
 const AboutUs = () => {
-  const navigation = useNavigate();
   return (
     <div className='bg-gray-800 pb-20'>
       <div className='flex flex-col justify-start items-center container max-w-4xl mx-auto px-2'>
@@ -26,7 +24,7 @@ const AboutUs = () => {
           tarafından kurulan ve kar amacı gütmeyen bir öğrenci topluluğudur. İYTE Yazılım Topluluğu, bağlı olduğu Bilgisayar Mühendisliği bölümüne, İzmir Yüksek 
           Teknoloji Enstitüsü’ne ve ülkesinin kalkınmasına yönelik büyük hedefleri olan büyük bir öğrenci topluluğudur. Bulunduğu her alanda en iyisini hedefler.
           İYTE Yazılım Topluluğu, bağlı olduğu İzmir Yüksek Teknıloji Enstitüsü’nün belirlediği ideallere, vizyona, misyona ve hedeflere uygun olarak kendisine 
-          <a href="/about"><b> Biz Kimiz?</b></a> maddesinde belirtilen maddeleri amaç edinmiştir.</p>
+          <b> Topluluk Kurallarında</b> belirtilen maddeleri amaç edinmiştir.</p>
         </div>
       </div>
     </div>
