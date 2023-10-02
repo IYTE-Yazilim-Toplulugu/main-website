@@ -131,7 +131,7 @@ const Navbar1 = () => {
 
                         <div className='flex basis-1/4 justify-end'>
                             
-                            <button className='ml-2 py-3 px-10 bg-white rounded-lg hover:bg-white/30 transition-all duration-300 shadow-xl'>Üye Ol</button>
+                            <a href='https://join.iyteyazilim.com/' target='_blank' className='ml-2 py-3 px-10 bg-white rounded-lg hover:bg-white/30 transition-all duration-300 shadow-xl'>Üye Ol</a>
                             {/* <button className='ml-2 py-1 px-2 rounded-lg hover:bg-[#FFDF00] bg-[#FFDF00]/30 transition-all duration-300 shadow-xl'>
                                 <p className='relative z-10'>Destekle</p>
                             </button> */}

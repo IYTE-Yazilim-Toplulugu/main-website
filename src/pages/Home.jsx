@@ -11,7 +11,7 @@ import Donators from "../components/Donators";
 import Faq from "../components/Faq";
 const Home = () => {
   return (
-    <div className='w-screen'>
+    <div className=''>
       <Navbar1 />
       <div className='mt-16'>
         <Banner />

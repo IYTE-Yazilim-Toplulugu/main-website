@@ -32,7 +32,7 @@ const Numbers = () => {
     }
   }, [width, size]);
   return (
-    <div className='bg-gray-700 h-20 lg:h-36 w-screen'>
+    <div className='bg-gray-700 h-20 lg:h-36 max-w-screen'>
       <div className='flex container max-w-5xl justify-between mx-auto items-center px-5 h-full'>
         <div className='flex flex-col items-center hover:bg-gray-800 w-full h-full justify-center text-white'>
           <LocationOnIcon sx={{ fontSize: size }} />
