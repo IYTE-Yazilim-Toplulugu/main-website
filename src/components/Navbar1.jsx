@@ -20,7 +20,9 @@ const SubNav = ({ isOpen }) => {
     }, [isOpen])
     return (
         <div className={`sm:px-8 px-2 bg-white py-2 ${translate} relative z-0 transition-all duration-300 ease-linear`}>
-            <h3 onClick={() => navigation("/")} className='mb-2 cursor-pointer text-black py-2 px-4 border-2 hover:bg-white/10 rounded-xl transition duration-300'>Ana Sayfa</h3>
+            <h3 onClick={() => {
+                                window.scrollTo(0,0); 
+                            }} className='mb-2 cursor-pointer text-black py-2 px-4 border-2 hover:bg-white/10 rounded-xl transition duration-300'>Ana Sayfa</h3>
             <h3 onClick={() => {
                 const y = document.getElementById("aboutUs").offsetTop - 40;
                 window.scrollTo(0,y); 
@@ -32,13 +34,13 @@ const SubNav = ({ isOpen }) => {
             <h3 onClick={() => {
                 const y = document.getElementById("faq").offsetTop - 80;
                 window.scrollTo(0,y); }} className='mb-2 cursor-pointer text-black py-2 px-4 border-2 active:shadow-xl hover:bg-white/10 rounded-xl transition duration-300'>S.S.S.</h3>
-            <h3 className='mb-2 cursor-pointer text-black py-2 px-4 border-2 hover:shadow-xl active:bg-white/10 rounded-xl transition duration-300'>İletişim</h3>
+            <a href="https://card.iyteyazilim.com/" target="_blank" rel="noopener noreferrer"><h3 className='mb-2 cursor-pointer text-black py-2 px-4 border-2 hover:shadow-xl active:bg-white/10 rounded-xl transition duration-300'>İletişim</h3></a>
             
 
             <hr />
 
             <div className='flex justify-center mt-2'>
-                <a href='https://join.iyteyazilim.com/' target='_blank' className='py-2 px-4 rounded-lg bg-purple-400 transition-all duration-300 shadow-xl'>Üye Ol</a>
+                <a href='https://join.iyteyazilim.com/' target='_blank' className='py-2 px-8 rounded-lg bg-orange-500 transition-all duration-300 shadow-xl'>Üye Ol</a>
                 
                 {/* <button className='ml-2 py-2 px-4 rounded-lg active:bg-[#FFDF00] bg-[#FFDF00] transition-all duration-300 shadow-xl'>
                     <p className='relative z-10'>Destekle</p>
