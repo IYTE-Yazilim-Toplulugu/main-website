@@ -36,7 +36,7 @@ const SubNav = ({ isOpen }) => {
             <hr />
 
             <div className='flex justify-center mt-2'>
-                <button className='py-2 px-4 rounded-lg bg-purple-400 transition-all duration-300 shadow-xl'>Üye Ol</button>
+                <a href='https://join.iyteyazilim.com/' target='_blank' className='py-2 px-4 rounded-lg bg-purple-400 transition-all duration-300 shadow-xl'>Üye Ol</a>
                 
                 {/* <button className='ml-2 py-2 px-4 rounded-lg active:bg-[#FFDF00] bg-[#FFDF00] transition-all duration-300 shadow-xl'>
                     <p className='relative z-10'>Destekle</p>
