@@ -12,8 +12,8 @@ import Faq from "../components/Faq";
 const Home = () => {
   return (
     <div className=''>
+    <meta name="google-site-verification" content="KuBGjSO_RU-NqkzTVBRPsasuRdG5J30kkffXQdosHSc" />
       <Navbar1 />
-      <meta name="google-site-verification" content="KuBGjSO_RU-NqkzTVBRPsasuRdG5J30kkffXQdosHSc" />
       <div className='mt-16'>
         <Banner />
         <div id='aboutUs'><AboutUs /></div>
